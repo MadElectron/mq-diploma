@@ -1,0 +1,175 @@
+@media (min-width: 641px) and (max-width: 960px) {
+  header, footer {
+    height: 960px;
+  }
+
+  .header-content {
+    padding: 40px 58px 91px;
+  }
+
+  svg.header-logo {
+    height: 56px;
+  }
+
+  .header-title-wrapper h1 {
+    padding: 0 24px;
+    font-size: 64px;
+    line-height: 75px;
+    letter-spacing: 2px
+  }
+
+  .header-title-wrapper h1:last-child {
+    margin-bottom: 3em;
+  }
+
+  .header-buttons-wrapper {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
+    /* justify-content: space-between; */
+  }
+
+  .header-button {
+    /* ??? Размеры через проценты? */
+    height: 77px;
+    border-radius: 38.5px;
+    margin: 0;
+  }
+
+  .header-button:nth-child(odd) {
+    margin-right: 31px;
+  }
+  
+  .header-button-icon-wrapper {
+    /* !!! Заданы оба размера */
+    width: 65px;
+  }
+
+  svg.header-button-icon { 
+    height: 42px;
+  }
+
+  .header-button-text {
+    /* width: 170px; */
+    flex-grow: 0.5;
+    font-size: 14px;
+  }
+
+
+
+  /* ==== Inner articles ==== */
+
+  h2.article-title {
+    font-size: 80px;
+    line-height: 60px;
+  }
+
+  .article-title-wrapper {
+    padding: 86px 21px 20px
+  }
+
+  .article-text-wrapper {
+    background-color: transparent;
+    padding: 33px 0 34px;
+  }
+
+  .article-img-wrapper {
+    /* !!! Временные стили! Надо через сетку */
+    position: absolute;
+    margin-top: 86px;
+    /* order: 0; */
+    /* display: none; */
+  }
+
+  .article__titled:nth-child(even) .article-img-wrapper {
+    left: -20%;    
+    height: 300%;
+
+  } 
+
+  .article__titled:nth-child(odd) .article-img-wrapper {
+    right: 0; 
+    top: -34px;   
+  } 
+
+  .article__titled:nth-child(even) .article-text-wrapper,
+  .article__titled:nth-child(even) .article-title-wrapper {
+    padding-left: 38%;
+    padding-right: 33px;
+  }
+
+  .article__titled:nth-child(odd) .article-text-wrapper,
+  .article__titled:nth-child(odd) .article-title-wrapper  {
+    padding-left: 33px;
+    padding-right: 38%; 
+  }  
+
+  h3.article-text-title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+
+  .article-text-wrapper p {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .article-text-title-num {
+    font-size: 18px;
+  }
+
+  .article-num-wrapper {
+    width: 116px;
+    height: 116px;
+    top: -85px;
+    margin-bottom: -85px;
+    margin-left: 33px
+  }
+
+  .article-num-wrapper .article-text-title-num {
+    font-size: 24px;
+  }
+
+  .article__alt h3.article-text-title {
+    padding: 0 0 37px;
+    font-size: 80px;
+    line-height: 60px;
+  }
+
+  .article__alt .article-text-wrapper {
+    padding: 57px 32px 59px
+  }
+
+  .article__alt .article-text-wrapper p {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  footer .header-content {
+    padding: 124px 58px 26px;
+  }
+
+  .app-icon-wrapper {
+    width: 132px;
+    height: 138px;
+    padding: 16px;
+    border-radius: 28px;
+    margin-bottom: 72px;
+  }
+
+  h2.download-text-title {
+    font-size: 78px;
+  }
+
+  h3.download-text-subtitle {
+    font-size: 36px;
+  }
+
+  footer .button
+
+}
+

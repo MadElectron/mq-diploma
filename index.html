@@ -6,13 +6,26 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Surface</title>
   <!-- @ TODO: Привести в соответствие структуру -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style768.css">
 </head>
 <body>
 
   <header>
-    <!-- @TODO: srcset -->
-    <img class="header-back" src="sources/img/football_767.jpg"></img>
+    
+    <picture>
+      <source 
+        media="(max-width: 640px)"
+        srcset="images/football_767.jpg">
+      <source 
+        media="(min-width: 641px) and (max-width: 960px)"
+        srcset="images/football_1280.jpg">        
+      <source 
+        media="(min-width: 961px)"
+        srcset="images/football_1920.jpg">        
+      <img class="header-back" src="images/football_1920.jpg">
+    </picture>
+    
     <div class="header-content">
 
       <svg class="header-logo" viewBox="0 0 972 264" xmlns="http://www.w3.org/2000/svg">
@@ -58,13 +71,26 @@
     </div>
   </header>
 
-  <article>
+  <article class="article__titled">
     <div class="article-title-wrapper">
       <h2 class="article-title">Athlets</h2>
     </div>
 
     <div class="article-img-wrapper">
-      <img src="sources/img/footballer_192.png" alt="">
+      
+      <picture>
+        <source 
+          media="(max-width: 640px)"
+          srcset="images/footballer_192.png">
+        <source 
+          media="(min-width: 641px) and (max-width: 960px)"
+          srcset="images/footballer_497.png">        
+        <source 
+          media="(min-width: 961px)"
+          srcset="images/footballer_566.png">   
+        <img src="images/footballer_192.png" alt="Footballer">
+      </picture>
+      
     </div>
 
     <div class="article-text-wrapper">
@@ -107,13 +133,24 @@
     </div>    
   </article>
 
-  <article>
+  <article class="article__titled">
     <div class="article-title-wrapper">
       <h2 class="article-title">Players</h2>
     </div>
 
     <div class="article-img-wrapper">
-      <img src="sources/img/basketballer_302.png" alt="">
+      <picture>
+        <source 
+          media="(max-width: 640px)"
+          srcset="images/basketballer_302.png">
+        <source 
+          media="(min-width: 641px) and (max-width: 960px)"
+          srcset="images/basketballer_436.png">        
+        <source 
+          media="(min-width: 961px)"
+          srcset="images/basketballer_991.png">   
+        <img src="images/basketballer_991.png">
+      </picture>
     </div>
 
     <div class="article-text-wrapper">
@@ -157,7 +194,19 @@
   </article>
 
   <article class="article__alt">
-    <img class="article-back-img" src="sources/img/be-active_640.jpg" alt="">
+    <picture>
+      <source 
+        media="(max-width: 640px)"
+        srcset="images/be-active_640.jpg">
+      <source 
+        media="(min-width: 641px) and (max-width: 960px)"
+        srcset="images/be-active_960.jpg">        
+      <source 
+        media="(min-width: 961px)"
+        srcset="images/be-active_1024.jpg">   
+      <img class="article-back-img" src="images/be-active.jpg" alt="">
+    </picture>    
+
     <div class="article-num-wrapper">
         <span class="article-text-title-num-wrapper">
           <span class="article-text-title-num">01</span> 
@@ -171,7 +220,8 @@
   </article>
 
   <article class="article__alt">
-    <img class="article-back-img" src="sources/img/find-contact_640.jpg" alt="">
+
+    <img class="article-back-img" src="images/find-contact_640.jpg" alt="">
     <div class="article-num-wrapper">
         <span class="article-text-title-num-wrapper">
           <span class="article-text-title-num">02</span> 
@@ -185,7 +235,7 @@
   </article>
 
   <article class="article__alt">
-    <img class="article-back-img" src="sources/img/work-it_640.jpg" alt="">
+    <img class="article-back-img" src="images/work-it_640.jpg" alt="">
     <div class="article-num-wrapper">
         <span class="article-text-title-num-wrapper">
           <span class="article-text-title-num">03</span> 
@@ -199,7 +249,7 @@
   </article>
 
   <footer>
-    <img class="header-back" src="sources/img/game_767.jpg">
+    <img class="header-back" src="images/game_767.jpg">
     <!-- @ TODO: Правильно поименовать внутренние тэги -->
 
     <div class="header-content"> 
