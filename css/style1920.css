@@ -1,0 +1,233 @@
+@media (min-width: 961px) {
+  header, footer {
+    height: 960px;
+  }
+
+  .header-content {
+    padding: 45px 185px 110px;
+  }
+
+  svg.header-logo {
+    height: 52px;
+  }
+
+  .header-title-wrapper h1 {
+    padding: 0;
+    font-size: 90px;
+    line-height: 110px;
+    letter-spacing: 3.3px
+  }
+
+  .header-title-wrapper h1:last-child {
+    margin-left: 9ch;
+  }
+
+  .header-buttons-wrapper {
+    /* @TODO:  слить с предыдущим медиа-запросом; */
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
+
+    justify-content: center;
+  }
+
+  .header-button {
+    /* ??? Размеры через проценты? */
+    height: 78px;
+    width: auto;
+    border-radius: 40px;
+    padding: 0 33px;
+    margin: 0;
+  }
+
+  .header-button:nth-child(odd) {
+    margin-right: 51px;
+  }
+  
+  .header-button-icon-wrapper {
+    /* !!! Заданы оба размера */
+    width: 68px;
+  }
+
+  svg.header-button-icon { 
+    height: 48px;
+  }
+
+  .header-button-text {
+    width: 170px;
+    font-size: 14px;
+  }
+
+
+
+  /* ==== Inner articles ==== */
+
+  h2.article-title {
+    /* Слить */
+    font-size: 80px;
+    line-height: 60px;
+  }
+
+  .article-title-wrapper {
+    padding: 112px 21px 44px
+  }
+
+  .article-text-wrapper {
+    background-color: transparent;
+    padding: 60px 0 52px;
+  }
+
+  .article-img-wrapper {
+    /* !!! Временные стили! Надо через сетку */
+    position: absolute;
+    margin-top: 24px;
+  }
+
+  .article__titled:nth-child(even) .article-img-wrapper {
+    left: 20%;    
+
+  } 
+
+  .article__titled:nth-child(odd) .article-img-wrapper {
+    right: 6%; 
+    top: 0;   
+  } 
+
+  .article__titled:nth-child(even) .article-text-wrapper,
+  .article__titled:nth-child(even) .article-title-wrapper {
+    padding-left: 53%;
+    padding-right: 100px;
+  }
+
+  .article__titled:nth-child(odd) .article-text-wrapper,
+  .article__titled:nth-child(odd) .article-title-wrapper  {
+    padding-left: 190px;
+    padding-right: 47%; 
+  }  
+
+  h3.article-text-title {
+    font-size: 37px;
+    line-height: 35px;
+  }
+
+  .article-text-wrapper p {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+
+
+  .article-text-title-num {
+    font-size: 20px;
+  }
+
+  .article-num-wrapper {
+    position: absolute;
+    top: 211px;
+    width: 166px;
+    height: 156px;
+    margin: 0;
+  }
+
+  .article-num-wrapper .article-text-title-num {
+    font-size: 24px;
+    line-height: 35px;
+  }
+
+  .article__alt {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -ms-align-items: stretch;
+    align-items: stretch;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    -o-flex-direction: row;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .article__alt > * {
+    flex-basis: 50%;
+  }
+
+  .article__alt:nth-child(odd) {
+    -webkit-flex-direction: row-reverse;
+    -moz-flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    -o-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+  }
+
+  .article__alt h3.article-text-title {
+    padding: 0 0 92px;
+    font-size: 80px;
+    line-height: 104px;
+  }
+
+  .article__alt .article-text-wrapper {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 170px 0 128px;
+  }
+
+  .article__alt:nth-child(odd) .article-text-wrapper {
+    padding: 0 128px 0 170px;
+  }
+
+  .article__alt .article-text-wrapper p {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  footer .header-content {
+    padding: 210px 0 58px;
+  }
+
+  .download-wrapper {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .app-icon-wrapper {
+    width: 132px;
+    height: 138px;
+    padding: 16px;
+    border-radius: 28px;
+    margin: 0 32px 0 0;
+  }
+
+  h2.download-text-title {
+    font-size: 86px;
+    line-height: 1.2em;
+  }
+
+  h3.download-text-subtitle {
+    font-size: 30px;
+    text-align: left;
+  }
+
+}
+

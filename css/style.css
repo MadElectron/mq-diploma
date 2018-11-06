@@ -105,7 +105,8 @@ svg.header-logo > g {
   -ms-align-items: center;
   align-items: center;
   justify-content: center;
-  border-radius: calc(35px / 2);
+
+  border-radius: 17.5px;
   border: none;
   background-color: #5e42b0;
 }
@@ -261,6 +262,7 @@ h3.article-text-title {
 img.article-back-img {
   position: relative;
   width: 100%;
+  vertical-align: middle;
 }
 
 

@@ -69,7 +69,7 @@
   }
 
   .article-title-wrapper {
-    padding: 86px 21px 20px
+    padding: 86px 21px 20px;
   }
 
   .article-text-wrapper {
@@ -127,7 +127,7 @@
     height: 116px;
     top: -85px;
     margin-bottom: -85px;
-    margin-left: 33px
+    margin-left: 33px;
   }
 
   .article-num-wrapper .article-text-title-num {
