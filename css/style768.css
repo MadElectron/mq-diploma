@@ -3,11 +3,12 @@
     height: 960px;
   }
 
-  .header-content {
+  header .content, 
+  footer .content {
     padding: 40px 58px 91px;
   }
 
-  svg.header-logo {
+  svg.logo {
     height: 56px;
   }
 
@@ -22,7 +23,7 @@
     margin-bottom: 3em;
   }
 
-  .header-buttons-wrapper {
+  .app-buttons-wrapper {
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flex;
@@ -30,30 +31,29 @@
     display: flex;
     -ms-align-items: center;
     align-items: center;
-    /* justify-content: space-between; */
   }
 
-  .header-button {
+  .app-button {
     /* ??? Размеры через проценты? */
     height: 77px;
     border-radius: 38.5px;
     margin: 0;
   }
 
-  .header-button:nth-child(odd) {
+  .app-button:nth-child(odd) {
     margin-right: 31px;
   }
   
-  .header-button-icon-wrapper {
+  .app-button-icon-wrapper {
     /* !!! Заданы оба размера */
     width: 65px;
   }
 
-  svg.header-button-icon { 
+  svg.app-button-icon { 
     height: 42px;
   }
 
-  .header-button-text {
+  .app-button-text {
     /* width: 170px; */
     flex-grow: 0.5;
     font-size: 14px;
@@ -73,8 +73,11 @@
   }
 
   .article-text-wrapper {
-    background-color: transparent;
     padding: 33px 0 34px;
+  }
+
+  .article-text-wrapper__alt0 {
+    background-color: transparent;
   }
 
   .article-img-wrapper {
@@ -149,7 +152,7 @@
     line-height: 28px;
   }
 
-  footer .header-content {
+  footer .content {
     padding: 124px 58px 26px;
   }
 

@@ -3,11 +3,12 @@
     height: 960px;
   }
 
-  .header-content {
+  header .content, 
+  footer .content {
     padding: 45px 185px 110px;
   }
 
-  svg.header-logo {
+  svg.logo {
     height: 52px;
   }
 
@@ -22,7 +23,7 @@
     margin-left: 9ch;
   }
 
-  .header-buttons-wrapper {
+  .app-buttons-wrapper {
     /* @TODO:  слить с предыдущим медиа-запросом; */
     display: -webkit-flex;
     display: -moz-flex;
@@ -35,7 +36,7 @@
     justify-content: center;
   }
 
-  .header-button {
+  .app-button {
     /* ??? Размеры через проценты? */
     height: 78px;
     width: auto;
@@ -44,20 +45,20 @@
     margin: 0;
   }
 
-  .header-button:nth-child(odd) {
+  .app-button:nth-child(odd) {
     margin-right: 51px;
   }
   
-  .header-button-icon-wrapper {
+  .app-button-icon-wrapper {
     /* !!! Заданы оба размера */
     width: 68px;
   }
 
-  svg.header-button-icon { 
+  svg.app-button-icon { 
     height: 48px;
   }
 
-  .header-button-text {
+  .app-button-text {
     width: 170px;
     font-size: 14px;
   }
@@ -81,8 +82,12 @@
     padding: 60px 0 52px;
   }
 
+  
+  .article-text-wrapper__alt0 {
+    background-color: transparent;
+  }
+
   .article-img-wrapper {
-    /* !!! Временные стили! Надо через сетку */
     position: absolute;
     margin-top: 24px;
   }
@@ -196,7 +201,7 @@
     line-height: 28px;
   }
 
-  footer .header-content {
+  footer .content {
     padding: 210px 0 58px;
   }
 
@@ -233,5 +238,5 @@
 
 /* ==== Ultra-wide ==== */
 @media (min-width: 1921px) {
-  
+
 }
