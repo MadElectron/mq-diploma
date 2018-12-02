@@ -5,11 +5,12 @@
 
   header:before {
     background: url('../images/football_1920.jpg');
+    background-size: cover;
   }
 
   header .content, 
   footer .content {
-    padding: 45px 10% 110px;
+    padding: 45px 185px 110px;
   }
 
   svg.logo {
@@ -215,5 +216,14 @@
 
 /* ==== Ultra-wide ==== */
 @media (min-width: 1921px) {
-  
+  .header-title-wrapper {
+    margin: 0 auto;
+    width: 1550px;
+  }
+
+  section {
+    width: 1920px;
+  }
+
+
 }

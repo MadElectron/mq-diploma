@@ -5,6 +5,7 @@
 
   header:before {
     background: url('../images/football_1280.jpg');
+    background-size: cover;
   }
 
   header .content, 
