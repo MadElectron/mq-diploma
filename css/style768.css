@@ -76,7 +76,7 @@
     padding: 33px 0 34px;
   }
 
-  .article-text-wrapper__alt0 {
+  .article-text-wrapper-alt0 {
     background-color: transparent;
   }
 
@@ -88,25 +88,25 @@
     /* display: none; */
   }
 
-  .article__titled:nth-child(even) .article-img-wrapper {
+  .article-titled:nth-child(even) .article-img-wrapper {
     left: -20%;    
     height: 300%;
 
   } 
 
-  .article__titled:nth-child(odd) .article-img-wrapper {
+  .article-titled:nth-child(odd) .article-img-wrapper {
     right: 0; 
     top: -34px;   
   } 
 
-  .article__titled:nth-child(even) .article-text-wrapper,
-  .article__titled:nth-child(even) .article-title-wrapper {
+  .article-titled:nth-child(even) .article-text-wrapper,
+  .article-titled:nth-child(even) .article-title-wrapper {
     padding-left: 38%;
     padding-right: 33px;
   }
 
-  .article__titled:nth-child(odd) .article-text-wrapper,
-  .article__titled:nth-child(odd) .article-title-wrapper  {
+  .article-titled:nth-child(odd) .article-text-wrapper,
+  .article-titled:nth-child(odd) .article-title-wrapper  {
     padding-left: 33px;
     padding-right: 38%; 
   }  
@@ -137,17 +137,17 @@
     font-size: 24px;
   }
 
-  .article__alt h3.article-text-title {
+  .article-alt h3.article-text-title {
     padding: 0 0 37px;
     font-size: 80px;
     line-height: 60px;
   }
 
-  .article__alt .article-text-wrapper {
+  .article-alt .article-text-wrapper {
     padding: 57px 32px 59px
   }
 
-  .article__alt .article-text-wrapper p {
+  .article-alt .article-text-wrapper p {
     font-size: 24px;
     line-height: 28px;
   }

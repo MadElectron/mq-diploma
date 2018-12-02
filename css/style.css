@@ -240,33 +240,33 @@ h3.article-text-title {
   z-index: 2;
 }
 
-.article-text-wrapper.article-text-wrapper__alt0 {
+.article-text-wrapper.article-text-wrapper-alt0 {
   background: #fafafa;
 }
 
-.article-text-wrapper.article-text-wrapper__alt1 {
+.article-text-wrapper.article-text-wrapper-alt1 {
   background: #f5f4f9;
 }
 
-.article-text-wrapper.article-text-wrapper__alt2 {
+.article-text-wrapper.article-text-wrapper-alt2 {
   background: #5e42b0;
 }
 
-.article-text-wrapper.article-text-wrapper__alt2 p,
-.article-text-wrapper.article-text-wrapper__alt3 p {
+.article-text-wrapper.article-text-wrapper-alt2 p,
+.article-text-wrapper.article-text-wrapper-alt3 p {
   color: #fff;
 }
 
-.article-text-wrapper.article-text-wrapper__alt2 .article-text-title-num-border,
-.article-text-wrapper.article-text-wrapper__alt3 .article-text-title-num-border {
+.article-text-wrapper.article-text-wrapper-alt2 .article-text-title-num-border,
+.article-text-wrapper.article-text-wrapper-alt3 .article-text-title-num-border {
   background: #fff;
 }
 
-.article-text-wrapper.article-text-wrapper__alt3 {
+.article-text-wrapper.article-text-wrapper-alt3 {
   background: #090c35;
 }
 
-.article-text-wrapper.article-text-wrapper__alt3 .article-text-title-num {
+.article-text-wrapper.article-text-wrapper-alt3 .article-text-title-num {
   color: #8765dd;
 }
 
@@ -277,11 +277,11 @@ h3.article-text-title {
 }
 
 
-.article__alt .article-text-wrapper {
+.article-alt .article-text-wrapper {
   padding: 33px 21px 77px;
 }
 
-.article__alt h3.article-text-title {
+.article-alt h3.article-text-title {
   padding: 0 0 24px;
   font-size: 28px;
 }

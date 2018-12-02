@@ -83,7 +83,7 @@
   }
 
   
-  .article-text-wrapper__alt0 {
+  .article-text-wrapper-alt0 {
     background-color: transparent;
   }
 
@@ -92,24 +92,24 @@
     margin-top: 24px;
   }
 
-  .article__titled:nth-child(even) .article-img-wrapper {
+  .article-titled:nth-child(even) .article-img-wrapper {
     left: 20%;    
 
   } 
 
-  .article__titled:nth-child(odd) .article-img-wrapper {
+  .article-titled:nth-child(odd) .article-img-wrapper {
     right: 6%; 
     top: 0;   
   } 
 
-  .article__titled:nth-child(even) .article-text-wrapper,
-  .article__titled:nth-child(even) .article-title-wrapper {
+  .article-titled:nth-child(even) .article-text-wrapper,
+  .article-titled:nth-child(even) .article-title-wrapper {
     padding-left: 53%;
     padding-right: 100px;
   }
 
-  .article__titled:nth-child(odd) .article-text-wrapper,
-  .article__titled:nth-child(odd) .article-title-wrapper  {
+  .article-titled:nth-child(odd) .article-text-wrapper,
+  .article-titled:nth-child(odd) .article-title-wrapper  {
     padding-left: 190px;
     padding-right: 47%; 
   }  
@@ -143,7 +143,7 @@
     line-height: 35px;
   }
 
-  .article__alt {
+  .article-alt {
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flex;
@@ -159,11 +159,11 @@
     justify-content: center;
   }
 
-  .article__alt > * {
+  .article-alt > * {
     flex-basis: 50%;
   }
 
-  .article__alt:nth-child(odd) {
+  .article-alt:nth-child(odd) {
     -webkit-flex-direction: row-reverse;
     -moz-flex-direction: row-reverse;
     -ms-flex-direction: row-reverse;
@@ -171,13 +171,13 @@
     flex-direction: row-reverse;
   }
 
-  .article__alt h3.article-text-title {
+  .article-alt h3.article-text-title {
     padding: 0 0 92px;
     font-size: 80px;
     line-height: 104px;
   }
 
-  .article__alt .article-text-wrapper {
+  .article-alt .article-text-wrapper {
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flex;
@@ -192,11 +192,11 @@
     padding: 0 170px 0 128px;
   }
 
-  .article__alt:nth-child(odd) .article-text-wrapper {
+  .article-alt:nth-child(odd) .article-text-wrapper {
     padding: 0 128px 0 170px;
   }
 
-  .article__alt .article-text-wrapper p {
+  .article-alt .article-text-wrapper p {
     font-size: 24px;
     line-height: 28px;
   }
