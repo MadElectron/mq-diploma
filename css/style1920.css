@@ -25,14 +25,8 @@
 
   .app-buttons-wrapper {
     /* @TODO:  слить с предыдущим медиа-запросом; */
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
     display: flex;
-    -ms-align-items: center;
     align-items: center;
-
     justify-content: center;
   }
 
@@ -144,17 +138,8 @@
   }
 
   .article-alt {
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
     display: flex;
-    -ms-align-items: stretch;
     align-items: stretch;
-    -webkit-flex-direction: row;
-    -moz-flex-direction: row;
-    -ms-flex-direction: row;
-    -o-flex-direction: row;
     flex-direction: row;
     justify-content: center;
   }
@@ -164,10 +149,6 @@
   }
 
   .article-alt:nth-child(odd) {
-    -webkit-flex-direction: row-reverse;
-    -moz-flex-direction: row-reverse;
-    -ms-flex-direction: row-reverse;
-    -o-flex-direction: row-reverse;
     flex-direction: row-reverse;
   }
 
@@ -178,15 +159,7 @@
   }
 
   .article-alt .article-text-wrapper {
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
     display: flex;
-    -webkit-flex-direction: column;
-    -moz-flex-direction: column;
-    -ms-flex-direction: column;
-    -o-flex-direction: column;
     flex-direction: column;
     justify-content: center;
     padding: 0 170px 0 128px;
@@ -206,12 +179,7 @@
   }
 
   .download-wrapper {
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
     display: flex;
-    -ms-align-items: center;
     align-items: center;
     justify-content: center;
   }
