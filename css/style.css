@@ -67,6 +67,11 @@ footer .content {
   background: rgba(10, 14, 52, 0.9);
 }
 
+a.logo-wrapper {
+  margin:  0 auto;
+
+}
+
 svg.logo {
   height: 36px;
 }
@@ -136,7 +141,7 @@ svg.app-button-icon {
   text-align: left;
   text-transform: uppercase;
   color: #fff;
-  vertical-align: middle;
+  /* vertical-align: middle; */
 }
 
 .app-button-text span {
