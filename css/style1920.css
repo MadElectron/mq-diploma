@@ -3,23 +3,27 @@
     height: 960px;
   }
 
+  header:before {
+    background: url('../images/football_1920.jpg');
+  }
+
   header .content, 
   footer .content {
-    padding: 45px 185px 110px;
+    padding: 45px 10% 110px;
   }
 
   svg.logo {
     height: 52px;
   }
 
-  .header-title-wrapper h1 {
+  .header-title-wrapper span {
     padding: 0;
     font-size: 90px;
     line-height: 110px;
     letter-spacing: 3.3px
   }
 
-  .header-title-wrapper h1:last-child {
+  .header-title-wrapper span:last-child {
     margin-left: 9ch;
   }
 
@@ -61,23 +65,23 @@
 
   /* ==== Inner articles ==== */
 
-  h2.article-title {
+  h2.section-title {
     /* Слить */
     font-size: 80px;
     line-height: 60px;
   }
 
-  .article-title-wrapper {
+  .section-title-wrapper {
     padding: 112px 21px 44px
   }
 
-  .article-text-wrapper {
+  .text-wrapper {
     background-color: transparent;
     padding: 60px 0 52px;
   }
 
-  
-  .article-text-wrapper-alt0 {
+
+  .text-wrapper-alt0 {
     background-color: transparent;
   }
 
@@ -86,41 +90,41 @@
     margin-top: 24px;
   }
 
-  .article-titled:nth-child(even) .article-img-wrapper {
+  .section-features:nth-child(even) .article-img-wrapper {
     left: 20%;    
 
   } 
 
-  .article-titled:nth-child(odd) .article-img-wrapper {
+  .section-features:nth-child(odd) .article-img-wrapper {
     right: 6%; 
     top: 0;   
   } 
 
-  .article-titled:nth-child(even) .article-text-wrapper,
-  .article-titled:nth-child(even) .article-title-wrapper {
+  .section-features:nth-child(even) .text-wrapper,
+  .section-features:nth-child(even) .section-title-wrapper {
     padding-left: 53%;
     padding-right: 100px;
   }
 
-  .article-titled:nth-child(odd) .article-text-wrapper,
-  .article-titled:nth-child(odd) .article-title-wrapper  {
+  .section-features:nth-child(odd) .text-wrapper,
+  .section-features:nth-child(odd) .section-title-wrapper  {
     padding-left: 190px;
     padding-right: 47%; 
   }  
 
-  h3.article-text-title {
+  h3.text-title {
     font-size: 37px;
     line-height: 35px;
   }
 
-  .article-text-wrapper p {
+  .text-wrapper p {
     font-size: 20px;
     line-height: 28px;
   }
 
 
 
-  .article-text-title-num {
+  .text-title-num {
     font-size: 20px;
   }
 
@@ -132,7 +136,7 @@
     margin: 0;
   }
 
-  .article-num-wrapper .article-text-title-num {
+  .article-num-wrapper .text-title-num {
     font-size: 24px;
     line-height: 35px;
   }
@@ -144,7 +148,8 @@
     justify-content: center;
   }
 
-  .article-alt > * {
+  .article-alt .article-back-img,
+  .article-alt .text-wrapper {
     flex-basis: 50%;
   }
 
@@ -152,26 +157,30 @@
     flex-direction: row-reverse;
   }
 
-  .article-alt h3.article-text-title {
+  .article-alt h3.text-title {
     padding: 0 0 92px;
     font-size: 80px;
     line-height: 104px;
   }
 
-  .article-alt .article-text-wrapper {
+  .article-alt .text-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 0 170px 0 128px;
   }
 
-  .article-alt:nth-child(odd) .article-text-wrapper {
+  .article-alt:nth-child(odd) .text-wrapper {
     padding: 0 128px 0 170px;
   }
 
-  .article-alt .article-text-wrapper p {
+  .article-alt .text-wrapper p {
     font-size: 24px;
     line-height: 28px;
+  }
+
+  footer:before {
+    background: url('../images/game_1920.jpg');
   }
 
   footer .content {
@@ -192,12 +201,12 @@
     margin: 0 32px 0 0;
   }
 
-  h2.download-text-title {
+  .download-text-title {
     font-size: 86px;
     line-height: 1.2em;
   }
 
-  h3.download-text-subtitle {
+  .download-text-subtitle {
     font-size: 30px;
     text-align: left;
   }
@@ -206,5 +215,5 @@
 
 /* ==== Ultra-wide ==== */
 @media (min-width: 1921px) {
-
+  
 }

@@ -3,6 +3,10 @@
     height: 960px;
   }
 
+  header:before {
+    background: url('../images/football_1280.jpg');
+  }
+
   header .content, 
   footer .content {
     padding: 40px 58px 91px;
@@ -12,14 +16,14 @@
     height: 56px;
   }
 
-  .header-title-wrapper h1 {
+  .header-title-wrapper span {
     padding: 0 24px;
     font-size: 64px;
     line-height: 75px;
     letter-spacing: 2px
   }
 
-  .header-title-wrapper h1:last-child {
+  .header-title-wrapper span:last-child {
     margin-bottom: 3em;
   }
 
@@ -57,20 +61,20 @@
 
   /* ==== Inner articles ==== */
 
-  h2.article-title {
+  h2.section-title {
     font-size: 80px;
     line-height: 60px;
   }
 
-  .article-title-wrapper {
+  .section-title-wrapper {
     padding: 86px 21px 20px;
   }
 
-  .article-text-wrapper {
+  .text-wrapper {
     padding: 33px 0 34px;
   }
 
-  .article-text-wrapper-alt0 {
+  .text-wrapper-alt0 {
     background-color: transparent;
   }
 
@@ -82,40 +86,40 @@
     /* display: none; */
   }
 
-  .article-titled:nth-child(even) .article-img-wrapper {
+  .section-features:nth-child(even) .article-img-wrapper {
     left: -20%;    
     height: 300%;
 
   } 
 
-  .article-titled:nth-child(odd) .article-img-wrapper {
+  .section-features:nth-child(odd) .article-img-wrapper {
     right: 0; 
     top: -34px;   
   } 
 
-  .article-titled:nth-child(even) .article-text-wrapper,
-  .article-titled:nth-child(even) .article-title-wrapper {
+  .section-features:nth-child(even) .text-wrapper,
+  .section-features:nth-child(even) .section-title-wrapper {
     padding-left: 38%;
     padding-right: 33px;
   }
 
-  .article-titled:nth-child(odd) .article-text-wrapper,
-  .article-titled:nth-child(odd) .article-title-wrapper  {
+  .section-features:nth-child(odd) .text-wrapper,
+  .section-features:nth-child(odd) .section-title-wrapper  {
     padding-left: 33px;
     padding-right: 38%; 
   }  
 
-  h3.article-text-title {
+  h3.text-title {
     font-size: 32px;
     line-height: 35px;
   }
 
-  .article-text-wrapper p {
+  .text-wrapper p {
     font-size: 16px;
     line-height: 28px;
   }
 
-  .article-text-title-num {
+  .text-title-num {
     font-size: 18px;
   }
 
@@ -127,23 +131,27 @@
     margin-left: 33px;
   }
 
-  .article-num-wrapper .article-text-title-num {
+  .article-num-wrapper .text-title-num {
     font-size: 24px;
   }
 
-  .article-alt h3.article-text-title {
+  .article-alt h3.text-title {
     padding: 0 0 37px;
     font-size: 80px;
     line-height: 60px;
   }
 
-  .article-alt .article-text-wrapper {
+  .article-alt .text-wrapper {
     padding: 57px 32px 59px
   }
 
-  .article-alt .article-text-wrapper p {
+  .article-alt .text-wrapper p {
     font-size: 24px;
     line-height: 28px;
+  }
+
+  footer:before {
+    background: url('../images/game_1280.jpg');
   }
 
   footer .content {
@@ -158,11 +166,11 @@
     margin-bottom: 72px;
   }
 
-  h2.download-text-title {
+  .download-text-title {
     font-size: 78px;
   }
 
-  h3.download-text-subtitle {
+  .download-text-subtitle {
     font-size: 36px;
   }
 
