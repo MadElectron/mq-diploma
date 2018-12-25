@@ -29,14 +29,12 @@
   }
 
   .app-buttons-wrapper {
-    /* @TODO:  слить с предыдущим медиа-запросом; */
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
   .app-button {
-    /* ??? Размеры через проценты? */
     height: 78px;
     width: auto;
     border-radius: 40px;
@@ -92,12 +90,11 @@
   }
 
   .section-features:nth-child(even) .article-img-wrapper {
-    left: 20%;    
-
+    left: calc(50% - 566px);    
   } 
 
   .section-features:nth-child(odd) .article-img-wrapper {
-    right: 6%; 
+    right: calc(54% - 991px); 
     top: 0;   
   } 
 
@@ -132,8 +129,8 @@
   .article-num-wrapper {
     position: absolute;
     top: 211px;
-    width: 166px;
-    height: 156px;
+    width: 8.6vw; /* 166px */
+    height: 8.1vw; /* 156px */
     margin: 0;
   }
 
@@ -143,6 +140,7 @@
   }
 
   .article-alt {
+    position: relative;
     display: flex;
     align-items: stretch;
     flex-direction: row;
@@ -159,18 +157,19 @@
   }
 
   .article-alt h3.text-title {
-    padding: 0 0 92px;
-    font-size: 80px;
-    line-height: 104px;
+    padding: 0 0 4.8vw;  /* 92px */
+    font-size: 4.2vw; /* 80px */
+    line-height: 5.4vw; /* 104px */
   }
 
   .article-alt .text-wrapper {
+    position: relative;
     justify-content: center;
-    padding: 263px 170px 0 128px;
+    padding: 13.7vw 8.9vw 0 6.7vw;
   }
 
   .article-alt:nth-child(odd) .text-wrapper {
-    padding: 263px 128px 0 170px;
+    padding: 13.7vw 6.7vw 0 8.9vw;
   }
 
   .article-alt .text-wrapper p {
@@ -219,9 +218,32 @@
     width: 1550px;
   }
 
-  section {
-    width: 1920px;
+  .section-features:nth-child(even) .text-wrapper,
+  .section-features:nth-child(even) .section-title-wrapper {
+    padding-right: calc(50vw - 810px);
   }
 
+  .section-features:nth-child(odd) .text-wrapper,
+  .section-features:nth-child(odd) .section-title-wrapper  {
+    padding-left: calc(50vw - 810px);
+  }  
 
+  .article-alt h3.text-title {
+    padding: 0 0 92px;
+    font-size: 80px;
+    line-height: 104px;
+  }
+
+  .article-alt .text-wrapper {
+    padding: 263px 170px 0 129px;
+  }
+
+  .article-alt:nth-child(odd) .text-wrapper {
+    padding: 263px 129px 0 170px;
+  }
+
+  .article-num-wrapper {
+    width: 166px;
+    height: 156px;
+  }
 }
