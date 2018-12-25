@@ -26,7 +26,15 @@ h2, h3, p {
 /* ==== Header + Header/Footer common items ==== */
 
 header h1 {
-  display: none;
+  position: absolute; 
+  overflow: hidden; 
+  clip: rect(0 0 0 0); /* IE6, IE7 */
+  clip: rect(0, 0, 0, 0);
+  height: 1px; 
+  width: 1px;
+  margin: -1px; 
+  padding: 0; 
+  border: 0; 
 }
 
 header, footer {
@@ -110,7 +118,6 @@ svg.logo > g {
 }
 
 .app-button-icon-wrapper {
-  /* height: 100%; */
   width: 29px;
 }
 
@@ -123,14 +130,12 @@ svg.app-button-icon {
 .app-button-text {
   display: inline-block;
   width: 90px;
-  height: 100%;
   margin-left: 5px;
   font-family: "OpenSans Regular", Arial, sans-serif;
   font-size: 8px;
   text-align: left;
   text-transform: uppercase;
   color: #fff;
-  /* vertical-align: middle; */
 }
 
 .app-button-text span {
@@ -216,33 +221,33 @@ h3.text-title {
   z-index: 2;
 }
 
-.text-wrapper.text-wrapper-alt0 {
+.text-wrapper.text-wrapper-ultralight-color {
   background: #fafafa;
 }
 
-.text-wrapper.text-wrapper-alt1 {
+.text-wrapper.text-wrapper-light-color {
   background: #f5f4f9;
 }
 
-.text-wrapper.text-wrapper-alt2 {
+.text-wrapper.text-wrapper-medium-color {
   background: #5e42b0;
 }
 
-.text-wrapper.text-wrapper-alt2 p,
-.text-wrapper.text-wrapper-alt3 p {
+.text-wrapper.text-wrapper-medium-color p,
+.text-wrapper.text-wrapper-dark-color p {
   color: #fff;
 }
 
-.text-wrapper.text-wrapper-alt2 .text-title-num:after,
-.text-wrapper.text-wrapper-alt3 .text-title-num:after {
+.text-wrapper.text-wrapper-medium-color .text-title-num:after,
+.text-wrapper.text-wrapper-dark-color .text-title-num:after {
   background: #fff;
 }
 
-.text-wrapper.text-wrapper-alt3 {
+.text-wrapper.text-wrapper-dark-color {
   background: #090c35;
 }
 
-.text-wrapper.text-wrapper-alt3 .text-title-num {
+.text-wrapper.text-wrapper-dark-color .text-title-num {
   color: #8765dd;
 }
 

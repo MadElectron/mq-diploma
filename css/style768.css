@@ -34,7 +34,6 @@
   }
 
   .app-button {
-    /* ??? Размеры через проценты? */
     height: 77px;
     border-radius: 38.5px;
     margin: 0;
@@ -45,7 +44,6 @@
   }
   
   .app-button-icon-wrapper {
-    /* !!! Заданы оба размера */
     width: 65px;
   }
 
@@ -75,7 +73,7 @@
     padding: 33px 0 34px;
   }
 
-  .text-wrapper-alt0 {
+  .text-wrapper-ultralight-color {
     background-color: transparent;
   }
 
