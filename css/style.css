@@ -70,7 +70,6 @@ footer .content {
 
 a.logo-wrapper {
   margin:  0 auto;
-
 }
 
 svg.logo {
@@ -82,10 +81,17 @@ svg.logo > g {
 }
 
 .header-title-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-title {
+  display: inline-block;
   padding-top: 45px;
 }
 
-.header-title-wrapper span {
+.header-title span {
   display: block;
   color: #fff;
   font-family: "OpenSans Bold", Arial, sans-serif;
@@ -95,7 +101,7 @@ svg.logo > g {
   text-transform: uppercase;
 }
 
-.header-title-wrapper span:nth-child(even) {
+.header-title span:nth-child(even) {
   margin-left: 3ch;
 }
 

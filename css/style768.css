@@ -17,14 +17,14 @@
     height: 56px;
   }
 
-  .header-title-wrapper span {
+  .header-title span {
     padding: 0 24px;
     font-size: 64px;
     line-height: 75px;
     letter-spacing: 2px
   }
 
-  .header-title-wrapper span:last-child {
+  .header-title span:last-child {
     margin-bottom: 3em;
   }
 
